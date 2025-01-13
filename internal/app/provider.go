@@ -26,7 +26,6 @@ type appProvider struct {
 	userServer *user_adapter.UsersServer
 
 	auth ports.IAuthClient
-	user ports.IUserServer
 	repo ports.IUserRepository
 }
 
