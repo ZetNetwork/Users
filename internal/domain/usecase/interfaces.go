@@ -2,6 +2,7 @@ package usecase
 
 import (
 	"context"
+
 	"github.com/ZetNetwork/Users/internal/domain/models/dto"
 )
 

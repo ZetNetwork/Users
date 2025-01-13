@@ -3,8 +3,10 @@ package migrations
 import (
 	"embed"
 	"fmt"
-	"github.com/ZetNetwork/Users/internal/infrastructure/database/go_postgres"
+
 	"github.com/pressly/goose/v3"
+
+	"github.com/ZetNetwork/Users/internal/infrastructure/database/go_postgres"
 )
 
 var (

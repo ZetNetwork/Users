@@ -2,7 +2,9 @@ package auth_adapter
 
 import (
 	"context"
+
 	"github.com/ZetNetwork/Protos/pkg/auth_v1"
+
 	"github.com/ZetNetwork/Users/internal/domain/ports"
 	"github.com/ZetNetwork/Users/pkg/logger"
 )

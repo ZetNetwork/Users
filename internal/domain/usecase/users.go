@@ -3,6 +3,7 @@ package usecase
 import (
 	"context"
 	"fmt"
+
 	"github.com/ZetNetwork/Users/internal/converters"
 	"github.com/ZetNetwork/Users/internal/domain/models/dto"
 	"github.com/ZetNetwork/Users/internal/domain/ports"

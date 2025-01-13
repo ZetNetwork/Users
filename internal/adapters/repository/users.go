@@ -3,6 +3,7 @@ package repository
 import (
 	"context"
 	"fmt"
+
 	"github.com/ZetNetwork/Users/internal/domain/models/entities"
 	"github.com/ZetNetwork/Users/internal/domain/ports"
 	"github.com/ZetNetwork/Users/internal/infrastructure/database/go_postgres"

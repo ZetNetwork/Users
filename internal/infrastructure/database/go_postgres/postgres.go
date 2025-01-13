@@ -2,9 +2,12 @@ package go_postgres
 
 import (
 	"github.com/Masterminds/squirrel"
-	"github.com/ZetNetwork/Users/internal/infrastructure/database"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
+
+	"fmt"
+
+	"github.com/ZetNetwork/Users/internal/infrastructure/database"
 )
 
 type PostgreClient struct {
@@ -14,6 +17,7 @@ type PostgreClient struct {
 
 func NewPostgresClient(config database.IPGConfig) (*PostgreClient, error) {
 	db, err := sqlx.Open(config.GetDriver(), config.GetDSN())
+	fmt.Errorf("dsf")
 	if err != nil {
 		return nil, err
 	}

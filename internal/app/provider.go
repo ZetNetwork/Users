@@ -2,6 +2,9 @@ package app
 
 import (
 	"github.com/ZetNetwork/Protos/pkg/auth_v1"
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/credentials/insecure"
+
 	"github.com/ZetNetwork/Users/internal/adapters/auth_adapter"
 	"github.com/ZetNetwork/Users/internal/adapters/repository"
 	"github.com/ZetNetwork/Users/internal/adapters/user_adapter"
@@ -11,8 +14,6 @@ import (
 	"github.com/ZetNetwork/Users/internal/infrastructure/database"
 	"github.com/ZetNetwork/Users/internal/infrastructure/database/go_postgres"
 	"github.com/ZetNetwork/Users/internal/infrastructure/user_server"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/insecure"
 )
 
 type appProvider struct {

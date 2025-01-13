@@ -3,10 +3,12 @@ package user_adapter
 import (
 	"context"
 	"fmt"
+
 	"github.com/ZetNetwork/Protos/pkg/users_v1"
+	"google.golang.org/protobuf/types/known/emptypb"
+
 	"github.com/ZetNetwork/Users/internal/domain/models/dto"
 	"github.com/ZetNetwork/Users/internal/domain/usecase"
-	"google.golang.org/protobuf/types/known/emptypb"
 )
 
 type UsersServer struct {

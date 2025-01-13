@@ -2,6 +2,7 @@ package ports
 
 import (
 	"context"
+
 	"github.com/ZetNetwork/Users/internal/domain/models/entities"
 )
 

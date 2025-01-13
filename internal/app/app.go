@@ -3,12 +3,14 @@ package app
 import (
 	"context"
 	"fmt"
+	"net"
+
 	"github.com/ZetNetwork/Protos/pkg/users_v1"
-	"github.com/ZetNetwork/Users/internal/migrations"
-	"github.com/ZetNetwork/Users/pkg/logger"
 	"github.com/joho/godotenv"
 	"google.golang.org/grpc"
-	"net"
+
+	"github.com/ZetNetwork/Users/internal/migrations"
+	"github.com/ZetNetwork/Users/pkg/logger"
 )
 
 const (

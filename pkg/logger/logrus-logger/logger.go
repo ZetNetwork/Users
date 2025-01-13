@@ -1,9 +1,10 @@
 package logrus_logger
 
 import (
-	"github.com/ZetNetwork/Users/pkg/logger"
 	"log/slog"
 	"os"
+
+	"github.com/ZetNetwork/Users/pkg/logger"
 )
 
 type loggerClient struct {
